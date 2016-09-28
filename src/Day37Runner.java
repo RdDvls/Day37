@@ -16,6 +16,10 @@ public class Day37Runner {
 //        System.out.println(doMath.factorial(7));
 
 //        Fibonacci:
+        Fibonacci fibonacci = new Fibonacci();
+        System.out.println(fibonacci.getSimpleFibonacci(8));
+//        System.out.println(fibonacci.getFibonnacciEff(8));
+        System.out.println(fibonacci.numInvocations);
 
     }
 }
